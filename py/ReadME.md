@@ -48,6 +48,7 @@ python trained_model_test.py
 python -m venv ai-train-env
 ai-train-env\Scripts\activate
 pip install transformers datasets torch scikit-learn
-> generate_csv.py
-> training > python train_sentiment.py
+? pip install accelerate>=0.26.0
+> python generate_csv.py
+> training > python train_from_csv.py
 > python test_csv_model.py
