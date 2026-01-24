@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+ai-env/
+
+# ML artifacts
+results/
+trained_model/
+*.bin
+*.pt
+*.pth
