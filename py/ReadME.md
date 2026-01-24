@@ -11,7 +11,8 @@ Local LLM Runtimes (Run like Docker)
 
 https://app.datacamp.com/learn/career-tracks/associate-ai-engineer-for-developers
 
--> python -m venv ai-env
+-> app ==> 
+   python -m venv ai-env
    ai-env\Scripts\activate
    pip install fastapi uvicorn transformers torch
    uvicorn app.main:app --reload
@@ -34,7 +35,7 @@ This is equivalent to: Client → IIS → Kestrel → ASP.NET Core → Business 
 
 -> “using models” → “training a model”
 
-==> Train
+==> apptrain/apptraincsv
 
 python -m venv ai-train-env
 ai-train-env\Scripts\activate
