@@ -35,9 +35,19 @@ This is equivalent to: Client → IIS → Kestrel → ASP.NET Core → Business 
 
 -> “using models” → “training a model”
 
-==> apptrain/apptraincsv
+==> apptrain
 
 python -m venv ai-train-env
 ai-train-env\Scripts\activate
 pip install transformers datasets torch scikit-learn
 python train_sentiment.py
+python trained_model_test.py
+
+==> apptraincsv
+
+python -m venv ai-train-env
+ai-train-env\Scripts\activate
+pip install transformers datasets torch scikit-learn
+> generate_csv.py
+> training > python train_sentiment.py
+> python test_csv_model.py
