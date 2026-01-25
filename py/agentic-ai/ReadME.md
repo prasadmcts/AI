@@ -12,3 +12,10 @@ http://127.0.0.1:8000/docs
 What is the leave policy?
 Can I work from home?
 What are security rules?
+
+===============
+
+rmdir /s /q ai-env
+python -m venv ai-env
+ai-env\Scripts\activate
+pip install -r requirements.txt

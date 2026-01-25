@@ -52,3 +52,10 @@ pip install transformers datasets torch scikit-learn
 > python generate_csv.py
 > training > python train_from_csv.py
 > python test_csv_model.py
+
+
+============
+rmdir /s /q ai-env
+python -m venv ai-env
+ai-env\Scripts\activate
+pip install -r requirements.txt

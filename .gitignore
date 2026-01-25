@@ -20,6 +20,8 @@ venv/
 ai-env/
 agent-env/
 agentic-ai-env/
+**/groq-env/
+**/*-env/
 
 ####################################
 # OS / IDE
