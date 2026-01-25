@@ -1,1 +1,110 @@
 /js/node_modules
+
+####################################
+# Python
+####################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+####################################
+# Virtual Environments
+####################################
+venv/
+.env/
+.env.*
+ai-env/
+agent-env/
+agentic-ai-env/
+
+####################################
+# OS / IDE
+####################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+####################################
+# Logs & temp files
+####################################
+*.log
+logs/
+tmp/
+temp/
+
+####################################
+# Jupyter / notebooks
+####################################
+.ipynb_checkpoints/
+
+####################################
+# ML / AI artifacts
+####################################
+# Training outputs
+results/
+checkpoints/
+runs/
+
+# Trained models
+trained_model/
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+
+####################################
+# Vector databases (RAG)
+####################################
+vector_db/
+faiss_index/
+*.faiss
+*.pkl
+
+####################################
+# Data files (raw / generated)
+####################################
+data/*.csv
+data/*.json
+data/raw/
+data/processed/
+
+####################################
+# Hugging Face cache
+####################################
+.cache/
+huggingface/
+hf_cache/
+
+####################################
+# FastAPI / Uvicorn
+####################################
+uvicorn.log
+
+####################################
+# Docker
+####################################
+__docker_tmp__/
+
+####################################
+# Coverage / testing
+####################################
+.coverage
+htmlcov/
+pytest_cache/
+
+####################################
+# Secrets (VERY IMPORTANT)
+####################################
+.env
+.env.local
+.env.production
+.env.dev
+*.key
+*.pem

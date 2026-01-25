@@ -1,0 +1,2 @@
+Do not share passwords.
+Use VPN when accessing company resources remotely.
