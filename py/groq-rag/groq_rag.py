@@ -1,9 +1,8 @@
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 load_dotenv()
-
-from langchain_groq import ChatGroq
-from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
 
 
 def ask_rag(query: str):
@@ -20,7 +19,7 @@ def ask_rag(query: str):
     docs = db.similarity_search(query, k=3)
 
     context = "\n\n".join([d.page_content for d in docs])
-    
+
     print("Context:", context)
 
     prompt = f"""
@@ -40,5 +39,6 @@ Question:
         temperature=0
     )
 
+    print("Prompt:", prompt)
     response = llm.invoke(prompt)
     return response.content

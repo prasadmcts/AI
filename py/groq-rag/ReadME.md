@@ -23,6 +23,7 @@ pip install fastapi uvicorn python-dotenv langchain langchain-community langchai
 pip freeze > requirements.txt
 
 python ingest.py
+python ingest_incremental.py
 
 uvicorn groq_app:app --reload
 
@@ -31,3 +32,4 @@ http://127.0.0.1:8000/docs
 what is leave policy?
 what is wfh policy?
 what are security guidelines?
+tell about hemanya

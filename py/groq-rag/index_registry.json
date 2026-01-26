@@ -1,0 +1,18 @@
+{
+  "family.txt": {
+    "hash": "ed0c6598869aa0b63d9b2dd4ccfb41be7992b592f67854e82bc562f39abba89f",
+    "chunks": 1
+  },
+  "leave_policy.txt": {
+    "hash": "4604658a4d78842f5acda12f59ba27a068d619db0d1927dbb7d8b1eef16656dc",
+    "chunks": 1
+  },
+  "security_guidelines.txt": {
+    "hash": "e8cc01b5e0a39b5350185474ffb9b208bfa174936424df18c7e5060c2d4a50c6",
+    "chunks": 1
+  },
+  "wfh_policy.txt": {
+    "hash": "8751902a3067e17f432645b163173f7c846dde1a15dc637b02e85329fee2436a",
+    "chunks": 1
+  }
+}
