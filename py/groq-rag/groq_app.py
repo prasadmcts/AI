@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from groq_rag import ask_rag
+from scheduler.scheduler import start_scheduler
 
 app = FastAPI()
 
@@ -9,3 +10,8 @@ def ask(q: str):
         "question": q,
         "answer": ask_rag(q)
     }
+
+
+# @app.on_event("startup")
+# def startup_event():
+#     start_scheduler()

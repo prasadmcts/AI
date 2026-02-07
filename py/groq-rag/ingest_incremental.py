@@ -8,7 +8,7 @@ from langchain_community.vectorstores import FAISS
 
 DATA_PATH = "data/confluence"
 VECTOR_PATH = "vectors"
-REGISTRY_FILE = "index_registry.json"
+REGISTRY_FILE = "data/index_registry.json"
 
 
 def compute_hash(text: str) -> str:

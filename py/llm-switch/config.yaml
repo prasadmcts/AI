@@ -1,0 +1,7 @@
+llm:
+  provider: anthropic   # anthropic | openai
+  model:
+    anthropic: claude-3-5-sonnet-20241022
+    openai: gpt-4o-mini
+  temperature: 0.2
+  max_tokens: 200
